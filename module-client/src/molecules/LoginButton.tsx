@@ -8,7 +8,7 @@ interface LoginButtonProps {
 
 const LoginButton = (props: LoginButtonProps) => {
   return (
-    <Button>
+    <Button onClick={(() => alert("hi"))}>
       <Label title={props.name} />
     </Button>
   );
