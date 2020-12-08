@@ -1,3 +1,4 @@
 rootProject.name = 'java-laboratory'
 include 'module-webflux'
-
+include 'module-client'
+include 'module-batch'
